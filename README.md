@@ -24,7 +24,7 @@ Our contributions are as follows:
 
 **Arabic-English Bilingual Healthcare LLM**
 - BiMediX2 is the first medical LLM based on Llama3.1 to achieve excellent results on English, Arabic, and bilingual text-based medical LLM benchmarks.
-- On English benchmarks, our BiMediX2 LLM outperform GPT4 by an average score of more than 9% across 10 medical datasets.
+- Our BiMediX2 LLM outperform GPT4 more than 8\% on the USMLE benchmark.
 - We created high-quality Arabic-English bilingual medical instruction sets using a semi-automated translation pipeline with Llama3 and GPT-3.5, complemented by manual verification. BiMediX2 is instruction-tuned with these bilingual instruction sets.
 - Similar to our previous BiMediX version, BiMediX2 supports soliciting follow-up questions to gather more information about patient symptoms.
 
