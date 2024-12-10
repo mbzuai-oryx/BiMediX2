@@ -4,7 +4,7 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-#### [Sahal Shaji Mullappilly](https://scholar.google.com/citations?user=LJWxVpUAAAAJ&hl=en)\*, [Mohammed Irfan K](https://scholar.google.com/citations?user=GJp0keYAAAAJ&hl=en)*, [Sara Pieri](https://scholar.google.com/citations?user=jLNKLsgAAAAJ&hl=en&oi=ao), [Fahad Khan](https://sites.google.com/view/fahadkhans/home), [Rao Muhammad Anwer](https://scholar.google.com/citations?hl=en&authuser=1&user=_KlvMVoAAAAJ), [Salman Khan](https://salman-h-khan.github.io/), [Timothy  Baldwin](https://scholar.google.com/citations?user=wjBD1dkAAAAJ&hl=en), and [Hisham Cholakkal](https://scholar.google.com/citations?hl=en&user=bZ3YBRcAAAAJ)
+#### [Sahal Shaji Mullappilly](https://scholar.google.com/citations?user=LJWxVpUAAAAJ&hl=en)\*, [Mohammed Irfan K](https://scholar.google.com/citations?user=GJp0keYAAAAJ&hl=en)*, [Sara Pieri](https://scholar.google.com/citations?user=jLNKLsgAAAAJ&hl=en&oi=ao), [Saeed Yahya Alseiari](https://ssmc.ae/doctors/dr-saeed-alseiari/), [Shanavas Cholakkal](https://www.researchgate.net/profile/Shanavas-Cholakkal), [Khaled Aldahmani](https://www.seha.ae/doctor-detail/327), [Fahad Khan](https://sites.google.com/view/fahadkhans/home), [Rao Muhammad Anwer](https://scholar.google.com/citations?hl=en&authuser=1&user=_KlvMVoAAAAJ), [Salman Khan](https://salman-h-khan.github.io/), [Timothy  Baldwin](https://scholar.google.com/citations?user=wjBD1dkAAAAJ&hl=en), and [Hisham Cholakkal](https://scholar.google.com/citations?hl=en&user=bZ3YBRcAAAAJ)
 
 \**Equally contributing first authors*
 
@@ -12,28 +12,20 @@
 
 ## 	👩‍⚕️ Overview
 
-Introducing **BiMediX2**, the first bilingual medical LLM and LMM based on Llama3.1, designed for seamless interaction in both English and Arabic. BiMediX2 facilitates a wide range of medical interactions, including multi-turn chats, multiple-choice question answering, open-ended question answering, along with the ability to understand and analyze medical images. Our model outperforms GPT-4 on English medical benchmarks and achieves state-of-the-art results in various Medical Multimodal evaluations thanks to the high-quality Arabic-English bilingual healthcare dataset and instruction sets. 
 
-Our models and datasets will be publicly released in HuggingFace 🤗.
+Introducing **BiMediX2**, the first bilingual (Arabic-English) Bio-Medical Expert Large Multimodal Model (LMM) designed for advanced medical image understanding and applications. Built on the Llama 3.1 architecture, BiMediX2 seamlessly integrates text and visual modalities to enable multilingual interactions, including text-based queries and multi-turn conversations involving medical images. Trained on a diverse bilingual and multimodal healthcare dataset of 1.6M samples, it achieves state-of-the-art performance across various benchmarks. BiMediX2 outperforms recent models in multimodal medical evaluations, delivering over 9% improvement in English and 20% in Arabic evaluations, and excelling in tasks like medical VQA, Report Generation, and Summarization.
 
 ---
 
 ## 🏆 Contributions
 
-Our contributions are as follows: 
+Our key contributions are as follows:
 
-**Arabic-English Bilingual Healthcare LLM**
-- BiMediX2 is the first medical LLM based on Llama3.1 to achieve excellent results on English, Arabic, and bilingual text-based medical LLM benchmarks.
-- Our BiMediX2 LLM outperform GPT4 more than 8\% on the USMLE benchmark.
-- We created high-quality Arabic-English bilingual medical instruction sets using a semi-automated translation pipeline with Llama3 and GPT-3.5, complemented by manual verification. BiMediX2 is instruction-tuned with these bilingual instruction sets.
-- Similar to our previous BiMediX version, BiMediX2 supports soliciting follow-up questions to gather more information about patient symptoms.
-
-**BiMediX2 VLM: Extension to Medical Image Modalities**
-- We created an Arabic-English instruction set with 120k image-text pairs across different medical image modalities to train BiMediX2 VLM.
-- Our model supports multiple medical image modalities as input, enabling users to upload medical images and clarify their questions in both Arabic and English.
-- We developed the first Arabic medical VLM evaluation benchmark that evaluates VLMs across different imaging modalities.
-- Our BiMediX2 VLM achieves state-of-the-art results on medical English and Arabic VLM evaluation benchmarks.
-
+- We introduce the _**first bilingual medical LMM**_ that achieves state-of-the-art results on VLM evaluation benchmarks across various medical image modalities, while also excelling on medical LLM evaluation benchmarks.
+- We curated a comprehensive _**Arabic-English multimodal bilingual instruction set**_ named _**BiMed-V**_ comprising over _**1.6M**_ instructions.
+- We introduce the first bilingual GPT-4o-based _**medical LMM benchmark**_ named _**BiMed-MBench**_, consisting of 286 medical queries in English and Arabic across various medical image modalities, fully verified by medical experts.
+- Our BiMediX2 LLM outperforms GPT-4 by _**more than 8%**_ on the USMLE benchmark and by _**more than 9%**_ in UPHILL factual accuracy evaluations.
+- Our BiMediX2 LMM achieves state-of-the-art results on BiMed-MBench, _**with over a 9% improvement**_ in English evaluations and _**more than a 20% improvement**_ in Arabic evaluations. Furthermore, it excels in medical Visual Question Answering, Report Generation, and Report Summarization tasks.
 
 ## 🌟 Examples
 
