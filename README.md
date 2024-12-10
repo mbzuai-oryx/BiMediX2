@@ -1,4 +1,4 @@
-# BiMediX2 : Bio-Medical EXpert LMM with English and Arabic Language Capabilities
+# BiMediX2 : Bio-Medical EXpert LMM for Diverse Medical Modalities
 
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
@@ -27,7 +27,23 @@ Our key contributions are as follows:
 - Our BiMediX2 LLM outperforms GPT-4 by _**more than 8%**_ on the USMLE benchmark and by _**more than 9%**_ in UPHILL factual accuracy evaluations.
 - Our BiMediX2 LMM achieves state-of-the-art results on BiMed-MBench, _**with over a 9% improvement**_ in English evaluations and _**more than a 20% improvement**_ in Arabic evaluations. Furthermore, it excels in medical Visual Question Answering, Report Generation, and Report Summarization tasks.
 
+## 📊 Model Performance
+### BiMed-MBench Evaluation
+![llavamed_spider](https://github.com/user-attachments/assets/88d1cee5-8848-43de-a830-394ff8a81a36)
+### Clinical LLM Evaluation
+![lmeval_sota](https://github.com/user-attachments/assets/ec35ae1b-bae8-4777-bf6d-cfe8fda0a7f0)
+
+
+## ֎ BiMediX2 Architecture
+![Bimedix2_arch](https://github.com/user-attachments/assets/b1b92056-629b-40d3-9a46-6b8373bce994)
+
 ## 🌟 Examples
 
-![Example 1](assets/example1.png)
+![en1](https://github.com/user-attachments/assets/914e458b-3b47-441f-adc3-4fc6bc52f846)
 ![Example 2](assets/example2.png)
+![bi1](https://github.com/user-attachments/assets/e54403be-8ba6-4670-922e-c189150a1168)
+![multidomain](https://github.com/user-attachments/assets/f88c4c2e-668d-4247-8b78-f6e49f2d2484)
+
+
+
+
