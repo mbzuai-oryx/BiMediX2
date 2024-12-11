@@ -9,6 +9,13 @@
 \**Equally contributing first authors*
 
 #### **Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI), UAE**
+[![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/mbzuai-oryx/BiMediX2)
+[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2412.07769)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
+
+## 📢 Latest Updates
+
+- **Dec-11-24**: BiMediX2 Technical Report is released [arxiv link](https://arxiv.org/abs/2412.07769). 🔥
 
 ## 	👩‍⚕️ Overview
 
@@ -27,15 +34,20 @@ Our key contributions are as follows:
 - Our BiMediX2 LLM outperforms GPT-4 by _**more than 8%**_ on the USMLE benchmark and by _**more than 9%**_ in UPHILL factual accuracy evaluations.
 - Our BiMediX2 LMM achieves state-of-the-art results on BiMed-MBench, _**with over a 9% improvement**_ in English evaluations and _**more than a 20% improvement**_ in Arabic evaluations. Furthermore, it excels in medical Visual Question Answering, Report Generation, and Report Summarization tasks.
 
+---
+
 ## 📊 Model Performance
 ### BiMed-MBench Evaluation
 ![llavamed_spider](https://github.com/user-attachments/assets/88d1cee5-8848-43de-a830-394ff8a81a36)
 ### Clinical LLM Evaluation
 ![lmeval_sota](https://github.com/user-attachments/assets/ec35ae1b-bae8-4777-bf6d-cfe8fda0a7f0)
 
+---
 
 ## ֎ BiMediX2 Architecture
 ![Bimedix2_arch](https://github.com/user-attachments/assets/b1b92056-629b-40d3-9a46-6b8373bce994)
+
+---
 
 ## 🌟 Examples
 
