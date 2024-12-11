@@ -56,6 +56,33 @@ Our key contributions are as follows:
 ![bi1](https://github.com/user-attachments/assets/e54403be-8ba6-4670-922e-c189150a1168)
 ![multidomain](https://github.com/user-attachments/assets/f88c4c2e-668d-4247-8b78-f6e49f2d2484)
 
+---
+
+## 📜 License & Citation 
+
+BiMediX2 is released under the CC-BY-NC-SA 4.0 License. For more details, please refer to the [LICENSE](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt) file included in our BiMediX repository.    
+
+⚠️ **Warning! This release, intended for research, is not ready for clinical or commercial use.**    
 
 
+Users are urged to employ BiMediX2 responsibly, especially when applying its outputs in real-world medical scenarios. 
+It is imperative to verify the model's advice with qualified healthcare professionals and not rely on it for medical diagnoses or treatment decisions.
+Despite the overall advancements BiMediX2 shares common challenges with other language models, 
+including hallucinations, toxicity, and stereotypes.   
+BiMediX2's medical diagnoses and recommendations are not infallible.
+
+If you use BiMediX2 in your research, please cite our work as follows:  
+
+```
+@misc{mullappilly2024bimedix2biomedicalexpertlmm,
+      title={BiMediX2: Bio-Medical EXpert LMM for Diverse Medical Modalities}, 
+      author={Sahal Shaji Mullappilly and Mohammed Irfan Kurpath and Sara Pieri and Saeed Yahya Alseiari and Shanavas Cholakkal and Khaled Aldahmani and Fahad Khan and Rao Anwer and Salman Khan and Timothy Baldwin and Hisham Cholakkal},
+      year={2024},
+      eprint={2412.07769},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.07769}, 
+}
+```
+---
 
