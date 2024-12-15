@@ -1,7 +1,7 @@
 # BiMediX2 : Bio-Medical EXpert LMM for Diverse Medical Modalities
 
 <p align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
+    <img src="https://i.imgur.com/waxVImv.png" alt="BiMediX2">
 </p>
 
 #### [Sahal Shaji Mullappilly](https://scholar.google.com/citations?user=LJWxVpUAAAAJ&hl=en)\*, [Mohammed Irfan K](https://scholar.google.com/citations?user=GJp0keYAAAAJ&hl=en)*, [Sara Pieri](https://scholar.google.com/citations?user=jLNKLsgAAAAJ&hl=en&oi=ao), [Saeed Yahya Alseiari](https://ssmc.ae/doctors/dr-saeed-alseiari/), [Shanavas Cholakkal](https://www.researchgate.net/profile/Shanavas-Cholakkal), [Khaled Aldahmani](https://www.seha.ae/doctor-detail/327), [Fahad Khan](https://sites.google.com/view/fahadkhans/home), [Rao Muhammad Anwer](https://scholar.google.com/citations?hl=en&authuser=1&user=_KlvMVoAAAAJ), [Salman Khan](https://salman-h-khan.github.io/), [Timothy  Baldwin](https://scholar.google.com/citations?user=wjBD1dkAAAAJ&hl=en), and [Hisham Cholakkal](https://scholar.google.com/citations?hl=en&user=bZ3YBRcAAAAJ)
@@ -11,11 +11,15 @@
 #### **Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI), UAE**
 [![Website](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/mbzuai-oryx/BiMediX2)
 [![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2412.07769)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-F9D371)](https://huggingface.co/collections/MBZUAI/bimedix2-675ee7528464dfd03f746127)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/mbzuai-oryx/BiMediX/blob/main/LICENSE.txt)
 
 ## 📢 Latest Updates
 
-- **Dec-11-24**: BiMediX2 Technical Report is released [arxiv link](https://arxiv.org/abs/2412.07769). 🔥
+- **Dec-15-24**: Our Model checkpoints are released on **_HuggingFace_** [link](https://huggingface.co/collections/MBZUAI/bimedix2-675ee7528464dfd03f746127). 🔥
+- **Dec-11-24**: BiMediX2 Technical Report is released [link](https://arxiv.org/abs/2412.07769). 🔥
+- **Dec-02-24**: BiMediX2 is featured by **_AI at Meta_** [link](https://ai.meta.com/blog/bimedix-built-with-llama/). 🔥
+- **Sep-24-24**: BiMediX2 wins the **_Meta Llama Impact Innovation Award_** [link](https://ai.meta.com/blog/llama-impact-grant-innovation-award-winners-2024/). 🔥
 
 ## 	👩‍⚕️ Overview
 
@@ -65,11 +69,7 @@ BiMediX2 is released under the CC-BY-NC-SA 4.0 License. For more details, please
 ⚠️ **Warning! This release, intended for research, is not ready for clinical or commercial use.**    
 
 
-Users are urged to employ BiMediX2 responsibly, especially when applying its outputs in real-world medical scenarios. 
-It is imperative to verify the model's advice with qualified healthcare professionals and not rely on it for medical diagnoses or treatment decisions.
-Despite the overall advancements BiMediX2 shares common challenges with other language models, 
-including hallucinations, toxicity, and stereotypes.   
-BiMediX2's medical diagnoses and recommendations are not infallible.
+Users are urged to employ BiMediX2 responsibly, especially when applying its outputs in real-world medical scenarios. It is imperative to verify the model's advice with qualified healthcare professionals and not rely on it for medical diagnoses or treatment decisions. Despite the overall advancements BiMediX2 shares common challenges with other language models, including hallucinations, toxicity, and stereotypes. BiMediX2's medical diagnoses and recommendations are not infallible.
 
 If you use BiMediX2 in your research, please cite our work as follows:  
 
@@ -85,4 +85,13 @@ If you use BiMediX2 in your research, please cite our work as follows:
 }
 ```
 ---
+## 🙏 Acknowledgements
+We are thankful to [Meta Llama](https://huggingface.co/meta-llama) for releasing their models and [LLaVa](https://github.com/haotian-liu/LLaVA), [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl?tab=readme-ov-file#axolotl), [LLaVA++](https://github.com/mbzuai-oryx/LLaVA-pp) for their open-source code contributions.
 
+We would like to thank Dr. Omair Mohammed, Dr. Mohammed Zidan and Dr. Vishal Thomas Oommen for their contribution in verification of medical responses.
+
+The computations were enabled by resources provided by *LUMI hosted by CSC (Finland)* and *LUMI consortium*, and by *Berzelius* resource provided by the *Knut and Alice Wallenberg Foundation at the NSC*.
+
+We are grateful to the *Meta Llama Impact Innovation Awards* for recognizing BiMediX2, as one of the winners awarded in October 2024. This recognition highlights our commitment to advancing AI-driven healthcare solutions.
+
+---
