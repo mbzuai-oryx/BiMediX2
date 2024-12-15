@@ -92,6 +92,6 @@ We would like to thank Dr. Omair Mohammed, Dr. Mohammed Zidan and Dr. Vishal Tho
 
 The computations were enabled by resources provided by *LUMI hosted by CSC (Finland)* and *LUMI consortium*, and by *Berzelius* resource provided by the *Knut and Alice Wallenberg Foundation at the NSC*.
 
-We are grateful to the *Meta Llama Impact Innovation Awards* for recognizing BiMediX2, as one of the winners awarded in October 2024. This recognition highlights our commitment to advancing AI-driven healthcare solutions.
+We are grateful to the *Meta Llama Impact Innovation Awards* for recognizing BiMediX2, as one of the winners awarded in September 2024. This recognition highlights our commitment to advancing AI-driven healthcare solutions.
 
 ---
