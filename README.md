@@ -34,7 +34,7 @@ Our key contributions are as follows:
 
 - We introduce the _**first bilingual medical LMM**_ that achieves state-of-the-art results on VLM evaluation benchmarks across various medical image modalities, while also excelling on medical LLM evaluation benchmarks.
 - We curated a comprehensive _**Arabic-English multimodal bilingual instruction set**_ named _**BiMed-V**_ comprising over _**1.6M**_ instructions.
-- We introduce the first bilingual GPT-4o-based _**medical LMM benchmark**_ named _**BiMed-MBench**_, consisting of 286 medical queries in English and Arabic across various medical image modalities, fully verified by medical experts.
+- We introduce the first bilingual GPT-4o-based _**medical LMM benchmark**_ named _**BiMed-MBench**_, consisting of 386 medical queries in English and Arabic across various medical image modalities, fully verified by medical experts.
 - Our BiMediX2 LLM outperforms GPT-4 by _**more than 8%**_ on the USMLE benchmark and by _**more than 9%**_ in UPHILL factual accuracy evaluations.
 - Our BiMediX2 LMM achieves state-of-the-art results on BiMed-MBench, _**with over a 9% improvement**_ in English evaluations and _**more than a 20% improvement**_ in Arabic evaluations. Furthermore, it excels in medical Visual Question Answering, Report Generation, and Report Summarization tasks.
 
