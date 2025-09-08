@@ -1,3 +1,4 @@
+### Accepted at **EMNLP 2025 Findings 🏅**
 # BiMediX2 : Bio-Medical EXpert LMM for Diverse Medical Modalities
 
 <p align="center">
