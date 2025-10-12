@@ -49,6 +49,18 @@ Our key contributions are as follows:
 
 ---
 
+## BiMed-MBench Evaluation
+
+To reproduce our BiMed-MBench evaluation results or evaluate your own models, please refer to the [BiMed-MBench](BiMed-MBench/) folder. This contains:
+
+- Bilingual (English & Arabic) evaluation datasets
+- Evaluation scripts for GPT-4o-based assessment
+- Instructions for running evaluations on custom models
+
+For detailed usage instructions, see the [BiMed-MBench README](BiMed-MBench/README.md).
+
+---
+
 ## ֎ BiMediX2 Architecture
 ![Bimedix2_arch](https://github.com/user-attachments/assets/b1b92056-629b-40d3-9a46-6b8373bce994)
 
