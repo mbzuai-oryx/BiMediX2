@@ -49,6 +49,24 @@ Our key contributions are as follows:
 
 ---
 
+## Training
+
+For a quick start, here’s the minimal flow to train BiMediX2. See [README.md](scripts/README.md) for detailed steps and notes.
+
+- Prerequisite: Install LLaVA-pp for Llama-3-V per their guide.
+- Data: Download `BiMed-V_stage1.json` and `BiMed-V_stage2.json` (links in [README.md](scripts/README.md)). Download images using the provided scripts.
+    - Images: PMC, Slake-VQA, Rad-VQA, Path-VQA. Use:
+        - `python scripts/download_pmc_images.py`
+        - `python scripts/download_slake_rad_path_images.py`
+    - Update image folder path in the training scripts.
+- Stage 1 (pretrain projector):
+    - Run: `./scripts/stage1_train.sh`
+    - Output: `./checkpoints/BiMediX2_llava_8B_pretrain/` (contains `mm_projector.bin`)
+- Stage 2 (LoRA finetune):
+    - Run: `./scripts/stage2_train.sh`
+    - Loads projector from Stage 1; outputs LoRA to `./checkpoints/BiMediX2_llava_8B_finetune_lora/`
+- Optional: Merge LoRA with base model using `./scripts/merge_lora.sh`.
+
 ## BiMed-MBench Evaluation
 
 To reproduce our BiMed-MBench evaluation results or evaluate your own models, please refer to the [BiMed-MBench](BiMed-MBench/) folder. This contains:

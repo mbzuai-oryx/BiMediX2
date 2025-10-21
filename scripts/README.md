@@ -12,8 +12,8 @@ Install [LLaVA-pp](https://github.com/mbzuai-oryx/LLaVA-pp?tab=readme-ov-file#in
 
 Download the required data files for training from huggingface:
 
-- **Stage 1 Data**: [`BiMed-V_stage1.json`](HF-LINK)
-- **Stage 2 Data**: [`BiMed-V_stage2.json`](HF-LINK)
+- **Stage 1 Data**: [`BiMed-V_stage1.json`](https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M/blob/main/BiMed-V_stage1.json)
+- **Stage 2 Data**: [`BiMed-V_stage2.json`](https://huggingface.co/datasets/MBZUAI/BiMed-V-1.6M/blob/main/BiMed-V_stage2.json)
 
 ### 3. Download Images
 
