@@ -17,6 +17,7 @@
 
 ## 📢 Latest Updates
 
+- **Oct-20-25**: Our Training configurations, Data, and evaluation framework are released! 🔥
 - **Dec-15-24**: Our Model checkpoints are released on **_HuggingFace_** [link](https://huggingface.co/collections/MBZUAI/bimedix2-675ee7528464dfd03f746127). 🔥
 - **Dec-11-24**: BiMediX2 Technical Report is released [link](https://arxiv.org/abs/2412.07769). 🔥
 - **Dec-02-24**: BiMediX2 is featured by **_AI at Meta_** [link](https://ai.meta.com/blog/bimedix-built-with-llama/). 🔥
@@ -80,7 +81,7 @@ For detailed usage instructions, see the [BiMed-MBench README](BiMed-MBench/READ
 ---
 
 ## ֎ BiMediX2 Architecture
-![Bimedix2_arch](https://github.com/user-attachments/assets/b1b92056-629b-40d3-9a46-6b8373bce994)
+![Bimedix2_arch](https://github.com/user-attachments/assets/41279807-c2ea-438d-b483-bab8d6d6408c)
 
 ---
 
